@@ -1,6 +1,6 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, m as maybeRenderHead } from '../astro_BOiJvXe6.mjs';
 import 'kleur/colors';
-import { $ as $$BlogPost } from './__B1I0iW7R.mjs';
+import { $ as $$BlogPost } from './__D0drNo3E.mjs';
 
 const $$Astro = createAstro();
 const $$Portfolio = createComponent(async ($$result, $$props, $$slots) => {
@@ -16,4 +16,4 @@ const $$file = "C:/Users/User/astro-blog-latest/src/pages/portfolio.astro";
 const $$url = "/portfolio";
 
 export { $$Portfolio as default, $$file as file, $$url as url };
-//# sourceMappingURL=portfolio_COwZPfBC.mjs.map
+//# sourceMappingURL=portfolio_C6YrJmDG.mjs.map

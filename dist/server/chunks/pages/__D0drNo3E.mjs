@@ -252,7 +252,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"blog":{"type":"content","entries":{"astro":"/src/content/blog/astro.md","aws":"/src/content/blog/aws.md","cloudfunctions":"/src/content/blog/cloudFunctions.md","ionic":"/src/content/blog/ionic.md","svelte":"/src/content/blog/svelte.md"}}};
+lookupMap = {"blog":{"type":"content","entries":{"astro":"/src/content/blog/astro.md","ionic":"/src/content/blog/ionic.md","aws":"/src/content/blog/aws.md","cloudfunctions":"/src/content/blog/cloudFunctions.md","svelte":"/src/content/blog/svelte.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {
@@ -303,4 +303,4 @@ const ____slug_ = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty(
 }, Symbol.toStringTag, { value: 'Module' }));
 
 export { $$BlogPost as $, SITE_TITLE as S, ____slug_ as _, $$FormattedDate as a, $$BaseHead as b, $$Header as c, $$Footer as d, SITE_DESCRIPTION as e, getCollection as g };
-//# sourceMappingURL=__B1I0iW7R.mjs.map
+//# sourceMappingURL=__D0drNo3E.mjs.map

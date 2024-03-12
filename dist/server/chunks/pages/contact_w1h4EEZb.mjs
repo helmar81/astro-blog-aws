@@ -1,6 +1,6 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, f as renderSlot, g as renderComponent } from '../astro_BOiJvXe6.mjs';
 import 'kleur/colors';
-import { $ as $$BlogPost } from './__B1I0iW7R.mjs';
+import { $ as $$BlogPost } from './__D0drNo3E.mjs';
 import 'clsx';
 /* empty css                            */
 
@@ -26,4 +26,4 @@ const $$file = "C:/Users/User/astro-blog-latest/src/pages/contact.astro";
 const $$url = "/contact";
 
 export { $$Contact as default, $$file as file, $$url as url };
-//# sourceMappingURL=contact_3FEfaY9t.mjs.map
+//# sourceMappingURL=contact_w1h4EEZb.mjs.map

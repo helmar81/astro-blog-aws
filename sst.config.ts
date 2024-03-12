@@ -1,5 +1,7 @@
+import { App } from "aws-cdk-lib/core";
 import type { SSTConfig } from "sst";
-import { AstroSite } from "sst/constructs";
+import { AstroSite, Bucket } from "sst/constructs";
+import { stack } from "sst/constructs/FunctionalStack.js";
 
 export default {
   config(_input) {
@@ -17,3 +19,5 @@ export default {
     });
   },
 } satisfies SSTConfig;
+
+

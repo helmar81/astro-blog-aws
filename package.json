@@ -17,6 +17,8 @@
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.1",
     "@astrojs/tailwind": "^5.1.0",
+    "@aws-sdk/client-s3": "^3.529.1",
+    "@aws-sdk/s3-request-presigner": "^3.529.1",
     "astro": "^4.4.10",
     "canvas-confetti": "^1.9.2",
     "dayjs": "^1.11.10",
@@ -26,9 +28,9 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "@types/canvas-confetti": "^1.6.4",
-    "sst": "^2.40.6",
+    "astro-sst": "^2.40.6",
     "aws-cdk-lib": "2.124.0",
     "constructs": "10.3.0",
-    "astro-sst": "^2.40.6"
+    "sst": "^2.40.6"
   }
 }

@@ -1,5 +1,5 @@
 import rss from '@astrojs/rss';
-import { g as getCollection, S as SITE_TITLE, e as SITE_DESCRIPTION } from './__B1I0iW7R.mjs';
+import { g as getCollection, S as SITE_TITLE, e as SITE_DESCRIPTION } from './__D0drNo3E.mjs';
 
 async function GET(context) {
 	const posts = await getCollection('blog');
@@ -15,4 +15,4 @@ async function GET(context) {
 }
 
 export { GET };
-//# sourceMappingURL=rss_SQuaDgXV.mjs.map
+//# sourceMappingURL=rss_CXPYc9R-.mjs.map

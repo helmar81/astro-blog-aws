@@ -1,6 +1,6 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, h as renderHead, e as addAttribute, m as maybeRenderHead } from '../astro_BOiJvXe6.mjs';
 import 'kleur/colors';
-import { g as getCollection, a as $$FormattedDate, b as $$BaseHead, c as $$Header, d as $$Footer, S as SITE_TITLE, e as SITE_DESCRIPTION, $ as $$BlogPost } from './__B1I0iW7R.mjs';
+import { g as getCollection, a as $$FormattedDate, b as $$BaseHead, c as $$Header, d as $$Footer, S as SITE_TITLE, e as SITE_DESCRIPTION, $ as $$BlogPost } from './__D0drNo3E.mjs';
 import 'clsx';
 /* empty css                          */
 
@@ -55,4 +55,4 @@ const index = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 }, Symbol.toStringTag, { value: 'Module' }));
 
 export { index as a, index$1 as i };
-//# sourceMappingURL=index_DQjLSf8k.mjs.map
+//# sourceMappingURL=index_C-20GdE2.mjs.map
