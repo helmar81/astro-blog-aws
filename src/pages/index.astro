@@ -1,0 +1,38 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import Layout from '../layouts/BlogPost.astro';
+
+import { ViewTransitions } from 'astro:transitions';
+---
+
+<Layout
+title="U S P E K H I"
+description="Webdesign"
+pubDate={new Date()}
+heroImage="/Uspekhi.png"
+>
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<ViewTransitions />
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+	
+
+		<main>
+			
+			<h1 class="font-serif text-xl my-8 text-justify antialiased">If you're a business owner in 2023 or just a blogger and you're not satisfied with your website's performance, 
+				these articles might be for you. Maybe you've invested a lot of time and effort into creating a beautiful website with a tool 
+				like Wordpress or Wix, but it's not generating the results you hoped for. Even if you are getting some traction, 
+				there is always room for improvement. In this blog, I'll explain why using a Framwork like React, Ionic, Svelte or Astro 
+				is the best choice for building a strong web presence. As the backend you can either use Firebase powered by Google or AWS from Amazon.
+			</h1>
+		</main>
+		
+	</body>
+</html>
